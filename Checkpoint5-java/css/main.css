@@ -1,0 +1,101 @@
+/* ----- logo ----- */
+.logo {
+    width: 268px;
+    height: 33px;
+    padding-top: 5px;
+}
+.shop-cart {
+    width: 33px;
+    height: 33px;
+    padding-top: 5px;
+}
+/* ----- navbar ----- */
+nav.logo {
+  display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+li {
+    float: right;
+    font-size: 18px;
+    font-family: Roboto,Arial,sans-serif;
+    list-style-type: none;
+
+  }
+
+  header 
+  {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    height: 65px;
+    box-shadow: 1px 1px #dad9d9a8;
+    
+  }
+  ul {
+    display: flex;
+    
+  }
+  
+  a {
+    display: block;
+    margin-left: 20px;;
+    text-decoration: none;
+    color: #747474
+    ;}
+
+    a:hover {
+        color: #cf1616;
+      }
+    
+      a:active /* Quand le visiteur clique sur le lien */
+    {
+        color: #cf1616;
+    }
+    
+
+
+
+    /* product card */ 
+
+    .card {
+     
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 40%;
+        font-size: 18px;   
+    }
+      
+      .card button:hover {
+        opacity: 0.7;
+      }
+      
+
+    .card-shop {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .shop-icone {
+        width: 20px;
+    }
